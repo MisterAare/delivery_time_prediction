@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Time Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Delivery Time Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Delivery_person_Age">Delivery Person Age:</label>
+        <input type="text" id="Delivery_person_Age" name="Delivery_person_Age" required><br><br>
+        
+        <label for="Delivery_person_Ratings">Delivery Person Ratings:</label>
+        <input type="text" id="Delivery_person_Ratings" name="Delivery_person_Ratings" required><br><br>
+        
+        <label for="distance">Distance (in km):</label>
+        <input type="text" id="distance" name="distance" required><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+    <h2>{{ prediction_text }}</h2>
+</body>
+</html>
