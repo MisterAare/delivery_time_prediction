@@ -9,10 +9,13 @@ The model was deployed og Google Colab IDE using the Flask framework and HTML fo
 from google.colab.output import eval_js
 print(eval_js("google.colab.kernel.proxyPort(5000)"))
 ```
+The below message in the Python shell is seen, which indicates that our App is now hosted and I can run it by clicking on the URL
 
 ```python
 * https://3ptu6ergm1w-496ff2e9c6d22116-5000-colab.googleusercontent.com/
 ```
+
+Flask web application
 
 ```python
 import numpy as np
