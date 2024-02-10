@@ -1,19 +1,20 @@
 # Food delivery time prediction
 
-# Dataset:
+### Dataset:
 The dataset is a cleaned version of the original dataset submitted by Gaurav Malik on Kaggle. Below are all the features in the dataset:
 
-** ID: order ID number
-** Delivery_person_ID: ID number of the delivery partner
-** Delivery_person_Age: Age of the delivery partner
-** Delivery_person_Ratings: ratings of the delivery partner based on past deliveries
-** Restaurant_latitude: The latitude of the restaurant
-** Restaurant_longitude: The longitude of the restaurant
-** Delivery_location_latitude: The latitude of the delivery location
-** Delivery_location_longitude: The longitude of the delivery location
-** Type_of_order: The type of meal ordered by the customer
-** Type_of_vehicle: The type of vehicle delivery partner rides
-** Time_taken(min): The time taken by the delivery partner to complete the order
+- **ID:** Order ID number
+- **Delivery_person_ID:** ID number of the delivery partner
+- **Delivery_person_Age:** Age of the delivery partner
+- **Delivery_person_Ratings:** Ratings of the delivery partner based on past deliveries
+- **Restaurant_latitude:** The latitude of the restaurant
+- **Restaurant_longitude:** The longitude of the restaurant
+- **Delivery_location_latitude:** The latitude of the delivery location
+- **Delivery_location_longitude:** The longitude of the delivery location
+- **Type_of_order:** The type of meal ordered by the customer
+- **Type_of_vehicle:** The type of vehicle the delivery partner rides
+- **Time_taken(min):** The time taken by the delivery partner to complete the order
+
 
 
 # Libraries and Frameworks
@@ -22,7 +23,7 @@ The Python libraries used in this project include pandas, numpy, scikit-learn, m
 
 # Data Analysis and Pre-processing
 
-Model Building:
+# Model Building:
 For this project I:
 
 # Deployment:
